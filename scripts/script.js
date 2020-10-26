@@ -10,12 +10,12 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Mekanın Sahibi",
-          artist: "Norm Ender",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/1.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=z3wAjJXbYzA",
-          favorited: false
+          name: "Human",
+          artist: "Rag'n'Bone Man",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/18.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/9.mp3",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: true
         },
         {
           name: "Everybody Knows",
@@ -23,15 +23,15 @@ new Vue({
           cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/2.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/2.mp3",
           url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
-          favorited: true
+          favorited: false
         },
         {
-          name: "Human",
+           name: "Human",
           artist: "Rag'n'Bone Man",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/3.mp3",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/1.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/10.mp3",
           url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
-          favorited: false
+          favorited: true
         },
         {
           name: "Butterflies",
@@ -47,7 +47,7 @@ new Vue({
           cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/5.mp3",
           url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
-          favorited: true
+          favorited: false
         },
         {
           name: "Genius ft. Sia, Diplo, Labrinth",
