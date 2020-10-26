@@ -10,29 +10,54 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Human",
-          artist: "Rag'n'Bone Man",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/18.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/9.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          name: "Video Games",
+          artist: "Lana Del Rey",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/1.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/3.mp3",
+          url: "https://www.youtube.com/watch?v=cE6wxDqdOV0",
           favorited: true
         },
         {
-          name: "Everybody Knows",
-          artist: "Leonard Cohen",
+          name: "Let Me Love You Like A Woman",
+          artist: "Lana Del Rey",
           cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/2.mp3",
-          url: "https://www.youtube.com/watch?v=Lin-a2lTelg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/9.mp3",
+          url: "https://www.youtube.com/watch?v=Nj9QqP-ce4E",
           favorited: false
         },
         {
            name: "COEUR EN MIETTES",
           artist: "Damso",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/1.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/10.mp3",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/3.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/2.mp3",
           url: "https://www.youtube.com/watch?v=1-jQo31__JQ",
           favorited: true
         },
+        {
+          name: "Brille",
+          artist: "La Sain Ft Blanco",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/5.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/5.mp3",
+          url: "https://www.youtube.com/watch?v=1-jQo31__JQ",
+          favorited: false
+        },
+        {
+          name: "Humane",
+          artist: "Rag'n'Bone Man",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/9.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/9.mp3",
+          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          favorited: false
+        },
+        {
+          name: "Killing me softy",
+          artist: "Franck Sinatra",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/8.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/8.mp3",
+          url: "https://www.youtube.com/watch?v=8tbP3f3i03E",
+          favorited: false
+        },
+
         {
           name: "Butterflies",
           artist: "Sia",
@@ -41,14 +66,7 @@ new Vue({
           url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
           favorited: false
         },
-        {
-          name: "The Final Victory",
-          artist: "Haggard",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/5.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/5.mp3",
-          url: "https://www.youtube.com/watch?v=0WlpALnQdN8",
-          favorited: false
-        },
+
         {
           name: "Genius ft. Sia, Diplo, Labrinth",
           artist: "LSD",
@@ -65,22 +83,7 @@ new Vue({
           url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
           favorited: true
         },
-        {
-          name: "Overdose",
-          artist: "Grandson",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/8.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/8.mp3",
-          url: "https://www.youtube.com/watch?v=00-Rl3Jlx-o",
-          favorited: false
-        },
-        {
-          name: "Rag'n'Bone Man",
-          artist: "Human",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/9.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/9.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
-          favorited: false
-        }
+
       ],
       currentTrack: null,
       currentTrackIndex: 0,
