@@ -36,7 +36,7 @@ new Vue({
         {
           name: "Brille",
           artist: "La Sain Ft Blanco",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/5.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/5.mp3",
           url: "https://www.youtube.com/watch?v=1-jQo31__JQ",
           favorited: false
@@ -78,7 +78,7 @@ new Vue({
         {
           name: "The Comeback Kid",
           artist: "Lindi Ortega",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/7.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/7.mp3",
           url: "https://www.youtube.com/watch?v=me6aoX0wCV8",
           favorited: true
