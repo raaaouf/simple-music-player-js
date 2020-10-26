@@ -26,11 +26,11 @@ new Vue({
           favorited: false
         },
         {
-           name: "Human",
-          artist: "Rag'n'Bone Man",
+           name: "COEUR EN MIETTES",
+          artist: "Damso",
           cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/1.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/10.mp3",
-          url: "https://www.youtube.com/watch?v=L3wKzyIN1yk",
+          url: "https://www.youtube.com/watch?v=1-jQo31__JQ",
           favorited: true
         },
         {
