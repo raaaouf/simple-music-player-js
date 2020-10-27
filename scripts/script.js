@@ -20,7 +20,7 @@ new Vue({
         {
           name: "Let Me Love You Like A Woman",
           artist: "Lana Del Rey",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/2.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/20.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=Nj9QqP-ce4E",
           favorited: false
