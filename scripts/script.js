@@ -61,7 +61,7 @@ new Vue({
         {
           name: "Butterflies",
           artist: "Sia",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/4.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/23.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/4.mp3",
           url: "https://www.youtube.com/watch?v=kYgGwWYOd9Y",
           favorited: false
