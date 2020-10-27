@@ -12,7 +12,7 @@ new Vue({
         {
           name: "Video Games",
           artist: "Lana Del Rey",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/17.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/16.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/3.mp3",
           url: "https://www.youtube.com/watch?v=cE6wxDqdOV0",
           favorited: true
