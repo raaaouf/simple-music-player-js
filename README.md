@@ -23,11 +23,11 @@ Check out this [live demo](https://raaaouf.github.io/simple-music-player-js) to 
 
 
 ## Credit 💙
-thanks to   [Voicu Apostol](https://dribbble.com/shots/3533847-Mini-Music-Player) for cool his design.
+thanks to [Voicu Apostol](https://dribbble.com/shots/3533847-Mini-Music-Player) for his cool design.
 
 ## TODO 🙌
- ### find a music api and link it with a backend to this project 
- ### mprove the design , add more features 
+ - find a music api and link it with a backend to this project 
+ - improve the design , add more features 
 
 ## Contributing 🙌
 ### Step 1
