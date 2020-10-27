@@ -46,7 +46,7 @@ thanks to   [Voicu Apostol](https://dribbble.com/shots/3533847-Mini-Music-Player
 
 ## License 📝
 
-- Copyright 2020 © Raouf Zoghbi.
+- [MIT](http://opensource.org/licenses/mit-license.php) License.
 
 <h4 align="center">
 <a href="http://linkedin.com/in/raoufzoghbi">Connect me in LinkedIn </a> | <a href="https://medium.com/@raaaaouf">See my Medium </a>👀 | <a href=" ">Click here to go to my CV</a>
