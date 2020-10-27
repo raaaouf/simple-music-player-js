@@ -4,26 +4,22 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link
-      href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap&subset=latin-ext"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://meyerweb.com/eric/tools/css/reset/reset.css"
-    />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap&subset=latin-ext">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
     <link rel="stylesheet" href="./css/main.css" />
     <title>Simple Music Player with js</title>
   </head>
   <body>
     <div class="wrapper" id="app">
       <div class="player">
-        <div class="player__top">
+		        <div class="player__top">
+
           <div class="player-cover">
             <transition-group :name="transitionName">
                 <div class="player-cover__item" v-if="$index === currentTrackIndex" :style="{ backgroundImage: `url(${track.cover})` }"  v-for="(track, $index) in tracks" :key="$index"></div>
             </transition-group>
           </div>
+
           <div class="player-controls">
             <div class="player-controls__item -favorite" :class="{ active : currentTrack.favorited }" @click="favorite">
               <svg class="icon">
@@ -35,6 +31,11 @@
                 <use xlink:href="#icon-link"></use>
               </svg>
             </a>
+            <div class="player-controls__item -repeat" @click="">
+              <svg class="icon">
+                <use xlink:href="#icon-infinity"></use>
+              </svg>
+            </div>
             <div class="player-controls__item" @click="prevTrack">
               <svg class="icon">
                 <use xlink:href="#icon-prev"></use>
@@ -68,8 +69,8 @@
         </div>
         <div v-cloak></div>
       </div>
-      <a href="https://github.com/muhammederdem/mini-player" target="_blank" class="github-btn">
-        See on GitHub
+      <a href="https://github.com/raaaouf/simple-music-player-js" target="_blank" class="github-btn">
+          Fork on GitHub
       </a>
     </div>
     <div id="footer">

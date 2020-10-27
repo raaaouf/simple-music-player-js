@@ -12,7 +12,7 @@ new Vue({
         {
           name: "Video Games",
           artist: "Lana Del Rey",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/1.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/3.mp3",
           url: "https://www.youtube.com/watch?v=cE6wxDqdOV0",
           favorited: true
@@ -21,14 +21,14 @@ new Vue({
           name: "Let Me Love You Like A Woman",
           artist: "Lana Del Rey",
           cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/9.mp3",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/1.mp3",
           url: "https://www.youtube.com/watch?v=Nj9QqP-ce4E",
           favorited: false
         },
         {
            name: "COEUR EN MIETTES",
           artist: "Damso",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/3.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/20.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/2.mp3",
           url: "https://www.youtube.com/watch?v=1-jQo31__JQ",
           favorited: true
@@ -36,7 +36,7 @@ new Vue({
         {
           name: "Brille",
           artist: "La Sain Ft Blanco",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/7.jpg",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/22.jpg",
           source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/5.mp3",
           url: "https://www.youtube.com/watch?v=1-jQo31__JQ",
           favorited: false
@@ -201,14 +201,6 @@ new Vue({
       this.isTimerPlaying = true;
     };
 
-    // this is optional (for preload covers)
-    for (let index = 0; index < this.tracks.length; index++) {
-      const element = this.tracks[index];
-      let link = document.createElement('link');
-      link.rel = "prefetch";
-      link.href = element.cover;
-      link.as = "image"
-      document.head.appendChild(link)
-    }
+
   }
 });
