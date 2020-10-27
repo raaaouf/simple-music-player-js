@@ -10,22 +10,6 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Video Games",
-          artist: "Lana Del Rey",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/13.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/3.mp3",
-          url: "https://www.youtube.com/watch?v=cE6wxDqdOV0",
-          favorited: true
-        },
-        {
-          name: "Let Me Love You Like A Woman",
-          artist: "Lana Del Rey",
-          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/2.jpg",
-          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/1.mp3",
-          url: "https://www.youtube.com/watch?v=Nj9QqP-ce4E",
-          favorited: false
-        },
-        {
            name: "COEUR EN MIETTES",
           artist: "Damso",
           cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/20.jpg",
@@ -41,6 +25,25 @@ new Vue({
           url: "https://www.youtube.com/watch?v=1-jQo31__JQ",
           favorited: false
         },
+        {
+          
+          name: "Video Games",
+          artist: "Lana Del Rey",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/13.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/3.mp3",
+          url: "https://www.youtube.com/watch?v=cE6wxDqdOV0",
+          favorited: true
+        },
+        
+        {
+          name: "Let Me Love You Like A Woman",
+          artist: "Lana Del Rey",
+          cover: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/img/2.jpg",
+          source: "https://raw.githubusercontent.com/raaaouf/simple-player-js/master/mp3/1.mp3",
+          url: "https://www.youtube.com/watch?v=Nj9QqP-ce4E",
+          favorited: false
+        },
+        
         {
           name: "Humane",
           artist: "Rag'n'Bone Man",
