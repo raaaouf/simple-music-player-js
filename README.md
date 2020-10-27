@@ -1,4 +1,4 @@
-![responsive ](https://github.com/raaaouf/simple-music-player-js/blob/master/cover.png)
+![responsive ](https://github.com/raaaouf/simple-music-player-js/blob/master/img/cover.png)
 
 # simple music player 🎶 using only JavaScript 💙
 
